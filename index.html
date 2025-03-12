@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Food Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Enhanced Hero Section */
+        .hero {
+            background: url('https://via.placeholder.com/1200x500') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+            position: relative;
+        }
+
+        .hero-content {
+            background: rgba(0, 0, 0, 0.6);
+            display: inline-block;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* CTA Button Enhancements */
+        .cta-button {
+            padding: 12px 25px;
+            background-color: #ff6600;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #cc5500;
+        }
+
+        /* Menu Grid Layout */
+        .grid-layout {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .menu-item img {
+            border-radius: 10px;
+        }
+
+        /* Contact Section */
+        .contact {
+            text-align: center;
+            padding: 40px;
+            background: #f7f7f7;
+        }
+
+        .contact p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .app-links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background: #ff6600;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .app-links a:hover {
+            background: #cc5500;
+        }
+
+        /* Footer Enhancements */
+        footer {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <h2>Hotel Food</h2>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section (Welcome Section) -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Hotel Food</h1>
+            <p>Delicious meals delivered to your table.</p>
+            <a href="menu.html" class="cta-button">View Full Menu</a>
+        </div>
+    </header>
+
+    <!-- Menu Section -->
+    <section class="menu-section">
+        <h2>Our Menu</h2>
+        <p>Explore a few of our delicious dishes:</p>
+        <div class="menu-items grid-layout">
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/300" alt="Dish 1">
+                <h3>Dish 1</h3>
+                <p>Delicious and savory dish with rich flavors.</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/300" alt="Dish 2">
+                <h3>Dish 2</h3>
+                <p>Freshly prepared with the finest ingredients.</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/300" alt="Dish 3">
+                <h3>Dish 3</h3>
+                <p>A perfect combination of taste and quality.</p>
+            </div>
+        </div>
+        <a href="menu.html" class="cta-button">See Full Menu</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+        <p><strong>Email:</strong> contact@hotelfood.com</p>
+        <p><strong>Address:</strong> 123 Food Street, Flavor City, FC 98765</p>
+        <div class="app-links">
+            <a href="#">Download on Google Play</a>
+            <a href="#">Download on the App Store</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Hotel Food | All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

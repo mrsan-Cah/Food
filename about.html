@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Hotel Food</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* About Page Enhancements */
+        .about-us {
+            text-align: center;
+            padding: 50px 20px;
+            background: #f9f9f9;
+        }
+
+        .about-section {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 10px;
+            max-width: 800px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .about-section:hover {
+            transform: scale(1.02);
+        }
+
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px 0;
+        }
+
+        .team-member {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 250px;
+        }
+
+        .team-member img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <h2>Hotel Food</h2>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Us Section -->
+    <section class="about-us">
+        <h2>About Hotel Food</h2>
+        <p>Welcome to Hotel Food, where we deliver delicious meals with passion and perfection.</p>
+        
+        <!-- Our Mission -->
+        <div class="about-section">
+            <h3>Our Mission</h3>
+            <p>At Hotel Food, our mission is to provide high-quality, fresh, and delicious meals to our guests.</p>
+        </div>
+
+        <!-- Our Story -->
+        <div class="about-section">
+            <h3>Our Story</h3>
+            <p>Founded in 2010, Hotel Food started as a small family-owned restaurant.</p>
+        </div>
+
+        <!-- Our Team -->
+        <h3>Meet Our Team</h3>
+        <div class="team-members">
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="Chef John">
+                <h4>Chef John</h4>
+                <p>Head Chef with over 20 years of experience.</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="Sarah">
+                <h4>Sarah</h4>
+                <p>Restaurant Manager ensuring exceptional service.</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="David">
+                <h4>David</h4>
+                <p>Marketing Head building strong community connections.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Hotel Food | All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
